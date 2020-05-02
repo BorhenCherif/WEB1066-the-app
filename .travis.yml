@@ -1,5 +1,8 @@
 language: java
-jdk: openjdk8 
+jdk: openjdk8
+
+before_install:
+  - ./gradlew assemble
 
 script:
-  - echo 'testing coming soon'
+  - ./gradlew test
