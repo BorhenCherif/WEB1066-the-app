@@ -17,4 +17,4 @@ deploy:
        ./script/chmod +x ./script/deploy.sh
        ./script/docker tag zutherb/monolithic-shop:latest <borhencherif>/<borhen_image>
        ./script/docker push $DOCKER_LOGIN/monolithic-shop:latest
-      
+
